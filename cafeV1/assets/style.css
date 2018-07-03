@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+
+/*--------------------------------------
+  Structure Module
+---------------------------------------*/
+body {
+	margin: 0px;
+	font-family: arial, sans-serif;
+}
+
+div#container {
+	margin: 50px 150px;
+	width: 1140px;
+	background-color: rgba(255,255,255,0.93);
+}
+
+
+/*--------------------------------------
+  Text Module
+---------------------------------------*/
+
+li {
+	padding-top: 30px;
+	line-height: 1.8rem;
+}
+
+
+/*--------------------------------------
+  MENU
+---------------------------------------*/
+nav {
+	height: 38.8px;
+	margin-bottom: 10px;
+	padding: 0;
+	width: 1140px;
+	background-color: rgba(0,0,0,0);
+}
+
+nav ul {
+	height: 40;
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	list-style-type: none;
+}
+
+nav ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 285px;
+	text-align: center;
+	font-size: 14px;
+}
+
+nav ul li a {
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	padding: 5px 5px;
+	display: block;
+	position: relative;
+	color: #fff;
+	background-color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:link {
+	color:#fff;
+	text-decoration:none;
+}
+
+nav ul li a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	border-color: #848848;
+	color:#333;
+	background-color: #848848;
+	text-decoration: none;
+}
+
+nav#head {
+	width: 100%;
+}
+
+nav#head ul li {
+	width: 288px;
+}
+
+
+/* ClearFix */
+
+.menu ul {
+	height: 1px;
+	min-height: 1px;
+	/*¥*//*/
+	height: 1px;
+	overflow: hidden;
+	/**/
+}
+
+.menu ul :after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}

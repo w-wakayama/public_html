@@ -1,0 +1,119 @@
+body{
+  margin: 0px;
+  background-size: 1900px;
+  background-image: url("./image/sea.jpg"); /* http://pictkan.com/photo/food/cafe/カフェ-ノートパソコン-スマホ-カフェオレ/Y6ln/1920/1280 */
+  background-position: left top;  /* 画像表示位置（右下） */
+  background-repeat: no-repeat;  /* 画像表示方法（繰り返し無し） */
+  background-attachment: fixed;  /* 画像固定 */
+  font-family: arial, sans-serif;
+}
+
+div#container {
+  background-color: rgba(255,255,255,0.8);
+  width: 624px;
+  margin: 100px 300px;
+  padding: 10px 100px;
+}
+
+h1 {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+  text-align: center;
+}
+
+h2 {
+  padding: 0.5em;/*文字周りの余白*/
+  color: #010101;/*文字色*/
+  background: #eaf3ff;/*背景色*/
+  border-bottom: solid 3px #516ab6;/*下線*/
+  font-size: 16px;
+}
+
+a:link {  /* リンク（クリック前） */
+	color:#404404;
+	text-decoration:none;  /* 文字の飾り（無し） */
+}
+
+a:visited {  /* リンク（クリック後） */
+	color:#666666;
+	text-decoration:none;
+}
+
+a:hover {  /* リンク（カーソルオン） */
+	color:#6666ff;
+	text-decoration:underline;  /* 文字の飾り（下線） */
+}
+
+li {
+	padding-top: 30px;
+	line-height: 1.8rem;
+}
+
+nav {
+	height: 38.8px;
+	margin-bottom: 10px;
+	padding: 0;
+	width: 1140px;
+	background-color: rgba(0,0,0,0);
+}
+
+nav ul {
+	height: 40;
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	list-style-type: none;
+}
+
+nav ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 285px;
+	text-align: center;
+	font-size: 14px;
+}
+
+nav ul li a {
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	padding: 5px 5px;
+	display: block;
+	position: relative;
+	color: #fff;
+	background-color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:link {
+	color:#fff;
+	text-decoration:none;
+}
+
+nav ul li a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	border-color: #9999ff;
+	color:#333;
+	background-color: #9999ff;
+	text-decoration: none;
+}
+
+nav#head {
+	width: 100%;
+}
+
+nav#head ul li {
+	width: 288px;
+}
+
+div#text {
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px #6666ff;
+}

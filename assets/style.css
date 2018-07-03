@@ -5,7 +5,7 @@
   Structure Module
 ---------------------------------------*/
 body {
-	background-image: url("./image/cafe.jpg"); /* http://pictkan.com/photo/food/cafe/カフェ-ノートパソコン-スマホ-カフェオレ/Y6ln/1920/1280 */
+	background-image: url("./image/pc.jpg"); /* http://pictkan.com/photo/food/cafe/カフェ-ノートパソコン-スマホ-カフェオレ/Y6ln/1920/1280 */
 	background-position: left top;  /* 画像表示位置（右下） */
 	background-repeat: no-repeat;  /* 画像表示方法（繰り返し無し） */
 	background-attachment: fixed;  /* 画像固定 */
@@ -16,7 +16,7 @@ body {
 div#container {
 	margin: 50px 150px;
 	width: 1140px;
-	background-color: rgba(255,255,255,0.93);
+	background-color: rgba(255,255,255,0.8);
 }
 
 
@@ -124,8 +124,6 @@ div.subtext {
 
 div#content {
 	text-align: center;
-	padding-right: 200px;
-	padding-left: 200px;
 }
 
 img {

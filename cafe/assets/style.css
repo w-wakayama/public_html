@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+
+/*--------------------------------------
+  Structure Module
+---------------------------------------*/
+body {
+	background-image: url("./image/cafe.jpg"); /* http://pictkan.com/photo/food/cafe/カフェ-ノートパソコン-スマホ-カフェオレ/Y6ln/1920/1280 */
+	background-position: left top;  /* 画像表示位置（右下） */
+	background-repeat: no-repeat;  /* 画像表示方法（繰り返し無し） */
+	background-attachment: fixed;  /* 画像固定 */
+	margin: 0px;
+	font-family: arial, sans-serif;
+}
+
+div#container {
+	margin: 50px 150px;
+	width: 1140px;
+	background-color: rgba(255,255,255,0.93);
+}
+
+
+/*--------------------------------------
+  Text Module
+---------------------------------------*/
+h1 {
+	font-size:200%;  /* 文字の大きさ */
+	text-align:center;  /* 文字の揃え */
+	padding-top: 90px;  /* 空白領域のサイズ */
+
+	background-position: center top;  /* 背景画像の位置 */
+	background-repeat: no-repeat;  /* 背景画像の表示方法 */
+
+	font-family: 'Fjalla One';
+}
+
+h2 {
+	margin-top:50px;  /* 余白（上部）*/
+	margin-bottom:20px;  /* 余白（下部）*/
+	margin-left: 80px;
+	margin-right: 80px;
+	padding:5px 15px;  /* 空白領域（上下　左右）*/
+	border: #515515 2px solid;
+	border-left:#515515 8px solid;  /* 枠線（左部）色 スタイル（直線）*/
+	font-size: 160%;  /* 文字のサイズ（相対指定） */
+	font-weight: bold;  /* 文字の太さ */
+	color:#515515;  /* 文字の色 */
+	font-family: 'Fjalla One';
+}
+
+h3 {
+	text-align: left;
+	font-size: 120%;
+	margin: 1rem 5rem;  /* 余白（上下　左右を相対指定）*/
+}
+
+table {
+	margin: 0rem 4rem;
+}
+
+th, td {
+	text-align:	left;
+	color: #444444;
+	padding: 0.1rem 0.6rem;
+	padding-top: 10px;
+	border-bottom: 1px solid #777;
+}
+
+th {
+	width: 500px;
+	color: #404404;
+	border-bottom: 1px solid #404404
+}
+
+ol, ul {
+	padding: 1rem 4rem;
+	font-family: "Fjalla One";
+}
+
+li {
+	padding-top: 30px;
+	line-height: 1.8rem;
+}
+
+address {
+	padding: 1rem 2rem;
+	font-style: normal;  /* 文字のスタイル（標準） */
+	text-align: right;
+}
+
+a:link {  /* リンク（クリック前） */
+	color:#404404;
+	text-decoration:none;  /* 文字の飾り（無し） */
+}
+
+a:visited {  /* リンク（クリック後） */
+	color:#666666;
+	text-decoration:none;
+}
+
+a:hover {  /* リンク（カーソルオン） */
+	color:#6666ff;
+	text-decoration:underline;  /* 文字の飾り（下線） */
+}
+
+div#copy {
+	font-family: "Fjalla One";
+	font-size: 20px;
+	text-align: center;
+	margin: 30px;
+	padding-right: 200px;
+	padding-left: 200px;
+	border-bottom: dotted 3px #000;
+}
+
+div.subtext {
+	text-align: left;
+	padding: 1em 1em;
+  margin: 1em 5rem;
+  color: #444444;
+  border-top: solid 5px #444444;
+  border-bottom: solid 5px #444444;
+}
+
+div#content {
+	text-align: center;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+img {
+	width: 100%;
+	text-align: left;
+}
+
+/*--------------------------------------
+  MENU
+---------------------------------------*/
+nav {
+	height: 38.8px;
+	margin-bottom: 10px;
+	padding: 0;
+	width: 1140px;
+	background-color: rgba(0,0,0,0);
+}
+
+nav ul {
+	height: 40;
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	list-style-type: none;
+}
+
+nav ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 285px;
+	text-align: center;
+	font-size: 14px;
+}
+
+nav ul li a {
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	padding: 5px 5px;
+	display: block;
+	position: relative;
+	color: #fff;
+	background-color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:link {
+	color:#fff;
+	text-decoration:none;
+}
+
+nav ul li a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	border-color: #848848;
+	color:#333;
+	background-color: #848848;
+	text-decoration: none;
+}
+
+nav#head {
+	width: 100%;
+}
+
+nav#head ul li {
+	width: 288px;
+}
+
+/* ClearFix */
+
+.menu ul {
+	height: 1px;
+	min-height: 1px;
+	/*¥*//*/
+	height: 1px;
+	overflow: hidden;
+	/**/
+}
+
+.menu ul :after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
