@@ -135,11 +135,11 @@ img {
   MENU
 ---------------------------------------*/
 nav {
-	height: 38.8px;
+	height: 39.8px;
 	margin-bottom: 10px;
 	padding: 0;
-	width: 1140px;
-	background-color: rgba(0,0,0,0);
+	width: 1440px;
+	background-color: #333;
 }
 
 nav ul {
@@ -154,7 +154,7 @@ nav ul li {
 	margin: 0;
 	padding: 0;
 	float: left;
-	width: 285px;
+	width: 240px;
 	text-align: center;
 	font-size: 14px;
 }

@@ -5,10 +5,6 @@
   Structure Module
 ---------------------------------------*/
 body {
-	background-image: url("./image/cafe.jpg"); /* http://pictkan.com/photo/food/cafe/カフェ-ノートパソコン-スマホ-カフェオレ/Y6ln/1920/1280 */
-	background-position: left top;  /* 画像表示位置（右下） */
-	background-repeat: no-repeat;  /* 画像表示方法（繰り返し無し） */
-	background-attachment: fixed;  /* 画像固定 */
 	margin: 0px;
 	font-family: arial, sans-serif;
 }
@@ -16,7 +12,7 @@ body {
 div#container {
 	margin: 50px 150px;
 	width: 1140px;
-	background-color: rgba(255,255,255,0.93);
+	background-color: rgba(255,255,255,0.85);
 }
 
 
@@ -35,6 +31,7 @@ h1 {
 }
 
 h2 {
+  text-align: left;
 	margin-top:50px;  /* 余白（上部）*/
 	margin-bottom:20px;  /* 余白（下部）*/
 	margin-left: 80px;
