@@ -126,7 +126,9 @@ div#content {
 }
 
 img {
-	width: 100%;
+	width: 244px;
+	padding: 10px;
+	display: inline-block;
 	text-align: left;
 }
 
