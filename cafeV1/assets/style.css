@@ -38,6 +38,7 @@ nav {
 }
 
 nav ul {
+	width: 1440px;
 	height: 40;
 	margin: 0;
 	padding: 0;
