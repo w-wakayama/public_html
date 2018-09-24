@@ -1,0 +1,178 @@
+body {
+  background: #000;
+  margin: 0px;
+}
+
+h1 {
+  position: relative;
+  z-index: 10000;
+  color: white;
+	font-size:200%;  /* 文字の大きさ */
+	text-align:center;  /* 文字の揃え */
+	padding-top: 90px;  /* 空白領域のサイズ */
+
+	background-position: center top;  /* 背景画像の位置 */
+	background-repeat: no-repeat;  /* 背景画像の表示方法 */
+
+	font-family: 'Fjalla One';
+}
+
+p {
+  position: relative;
+  z-index: 10000;
+  color: #333;
+  margin: 20px;
+  font-family: 'Fjalla One';
+}
+
+canvas {
+  position: relative;
+  z-index: 1;
+  top: 0px;
+  left: 300px;
+  padding: 0px;
+}
+
+input {
+  position: relative;
+  z-index: 10000;
+}
+
+label {
+  position: relative;
+  z-index: 10000;
+  color: white;
+  background-color: rgb(100,100,255);
+  padding: 6px;
+  border-radius: 12px;
+}
+
+nav {
+  position: relative;
+  z-index: 10000;
+	height: 39.8px;
+	margin-bottom: 10px;
+	padding: 0;
+	width: 1440px;
+}
+nav#head {
+  margin-left: 0px;
+	background-color: #333;
+}
+
+nav#head ul {
+	width: 1440px;
+	height: 40px;
+	margin: 0;
+  margin-left: 0px;
+	padding: 0;
+	line-height: 100%;
+	list-style-type: none;
+}
+
+nav ul{
+  margin-left: 420px;
+}
+
+nav ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 240px;
+	text-align: center;
+	font-size: 14px;
+}
+
+nav ul li a {
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	padding: 5px 5px;
+	display: block;
+	position: relative;
+	color: #fff;
+	background-color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:link {
+	color:#fff;
+	text-decoration:none;
+}
+
+nav ul li a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	border-color: #64ffff;
+	color:#333;
+	background-color: #64ffff;
+	text-decoration: none;
+}
+
+ol, ul {
+	padding: 1rem 4rem;
+	font-family: "Fjalla One";
+}
+
+li {
+	padding-top: 30px;
+	line-height: 1.8rem;
+}
+
+div#container {
+  margin-left: 300px;
+	width: 840px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+div#copy {
+	font-family: "Fjalla One";
+	font-size: 20px;
+	text-align: center;
+	margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+	padding-right: 200px;
+	padding-left: 200px;
+	border-bottom: dotted 3px #000;
+}
+
+div.subtext {
+	text-align: left;
+	padding: 1em 1em;
+  margin: 1em 5rem;
+  color: #444444;
+  border-top: solid 5px #444444;
+  border-bottom: solid 5px #444444;
+}
+
+div#content {
+	text-align: center;
+}
+
+address {
+  color: #fff;
+	padding: 1rem 2rem;
+	font-style: normal;  /* 文字のスタイル（標準） */
+  font-family: 'Fjalla One';
+	text-align: right;
+}
+
+.sliders {
+  width: 400px;
+}
+
+#file {
+  color: #fff;
+}
+
+.status {
+  text-align: center;
+  width: 500px;
+  padding: 50px;
+  margin-top: 50px;
+  margin-left: 470px;
+  background-color: rgba(255,255,255,0.3);
+}

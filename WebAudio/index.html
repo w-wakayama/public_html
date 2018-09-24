@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title>Sound Visualizer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="manifest" href="manifest.json">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav id="head">
+      <ul>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../v1.html">Ver.1</a></li>
+        <li><a href="./index.html">Ver.2</a></li>
+      </ul>
+    </nav>
+
+    <h1>Sound Visualizer</h1>
+
+    <audio src="./assets/music/sample.mp3" controls preload style="display:none;"></audio>
+
+    <div class="status" style="display:none;">
+      <p>volume</p>
+      <input class="sliders" id="volume" type="range" max="1" min="0" step="0.01" value="1">
+      <p>lowpass</p>
+      <input class="sliders" id="lowpass" type="range" max="1" min="0.01" step="0.01" value="1">
+      <p>highpass</p>
+      <input class="sliders" id="highpass" type="range" max="1" min="0" step="0.01" value="0">
+    </div>
+
+    <canvas id="visualizer" height="300"></canvas>
+    <nav>
+      <ul>
+        <li><a href="./app.html">visualizer type1</a></li>
+        <li><a href="./app2.html">visualizer type2</a></li>
+      </ul>
+    </nav>
+
+    <p style="text-align: right;">By WebAudio API</p>
+
+    <footer>
+      <hr>
+      <address>NE300095 Kota WAKAYAMA</address>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

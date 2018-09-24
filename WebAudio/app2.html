@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title>Type2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="manifest" href="manifest.json">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav id="head">
+      <ul>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="./index.html">Sound Visualizer</a></li>
+        <li><a href="./app.html">Type1</a></li>
+        <li><a href="./app2.html">Type2</a></li>
+      </ul>
+    </nav>
+
+    <h1>Type2</h1>
+
+    <label for="file">
+    	+ Audio File<input type="file" id="file" style="display:none;"/>
+    </label>
+
+    <div class="status">
+      <p>volume</p>
+      <input class="sliders" id="volume" type="range" max="1" min="0" step="0.01" value="1">
+      <p>Rate</p>
+      <input class="sliders" id="rate" type="range" max="2" min="0" step="0.01" value="1">
+      <p>peaking</p>
+      <input class="sliders" id="peaking" type="range" max="1" min="0.01" step="0.01" value="1">
+    </div>
+
+    <canvas id="visualizer" height="800"></canvas>
+
+    <footer>
+      <hr>
+      <address>NE300095 Kota WAKAYAMA</address>
+    </footer>
+
+    <script src="assets/js/app2.js"></script>
+  </body>
+</html>
