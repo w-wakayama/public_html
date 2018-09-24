@@ -42,7 +42,7 @@ window.onload = function(){
     effector.peaking = audioContext.createBiquadFilter();
     effector.peaking.type = "peaking";
     effector.peaking.frequency.value = 10000;
-    effector.peaking.gain.value = 10;
+    effector.peaking.gain.value = 15;
     effector.peaking.Q.value = 1;
     effector.peaking.connect(analyser);
   }
