@@ -3,9 +3,9 @@ var effector = {};
 var audioContext = new AudioContext;
 var fileReader   = new FileReader;
 var gain;
-var cVol = 1.0,
-    cLow = 1.0,
-    cRate = 0;
+var cVol = 1,
+    cPeak = 1,
+    cRate = 1;
 
 window.onload = function(){
   init();
@@ -53,7 +53,7 @@ window.onload = function(){
     analyser.getByteFrequencyData(freqVal);
 
     var c1 = Math.floor(cVol*255) || 75;
-    var c2 = Math.floor(cLow*255) || 75;
+    var c2 = Math.floor(cPeak*255) || 75;
     var c3 = Math.floor(cRate*255) || 75;
     canvasContext.clearRect(0, 0, canvas.width, canvas.height);
     for(var i=0, len=freqVal.length; i<len; i++){
